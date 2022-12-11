@@ -1,0 +1,138 @@
+body { 
+    height: 100vh;
+    background-image: linear-gradient(rgba(11, 11, 11, 0.75),rgba(7, 7, 7, 0.75)),url(img/e92.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 0px; }
+
+.contactbox {width: 500px;
+background-color: #fff;
+box-shadow: 0 0 20px 0 #999;
+top: 50%;
+left: 0%;
+transform: translate(-50%,-50%);
+position: absolute;
+}
+    /* .nav {
+        display: flex;
+        justify-content: space-between;
+        width: 400px;
+        margin-left: auto;
+       
+        margin-right: 30px;
+    }
+    
+    .nav li{ 
+    font-family: 'Thasadith';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 17px;
+    line-height: 31px;
+    color: #000000;
+    list-style: none;
+    }
+    .nav li a{text-decoration: none;
+        color: rgb(0, 0, 0);
+        text-transform: uppercase;
+    
+    }
+    
+    .nav li a:hover {
+        text-decoration: underline;
+    }
+     */
+    
+    .line {position: absolute;
+        left: 30%;
+        right: 35%;
+        top: 50.88%;
+        bottom: 80.12%;
+        border: 3px solid #FFFFFF;
+        transform: rotate(90deg);}
+    
+
+        
+.logo{
+    position:absolute ;
+   margin-top: 20px;
+}
+.nav{
+    position:absolute ;
+    left: 900px;
+    top: 30px;
+}
+.nav ul {
+  list-style: none;
+  align-content: right;
+}
+.nav li{
+    display: inline;
+    align-content: right;
+    margin: 0px 20px;
+}
+
+.nav li { 
+    font-family: 'Thasadith';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 17px;
+    line-height: 31px;
+    color: #FFFFFF;
+    list-style: none;
+}
+.nav li a{text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+.nav li a:hover {
+    text-decoration: underline;
+}
+
+.logo{
+    position:absolute ;
+   margin-top: -80px;
+   left: -40px;
+   top: 30px;
+}
+
+form {
+    margin: 35px;
+}
+
+.name {
+    width: 250px;
+height: 40px;
+margin-top: 20px;
+border: 1px solid #777; 
+outline: none;}
+
+.mail {
+    width: 250px;
+height: 40px;
+margin-top: 200px;
+border: 1px solid #777; 
+outline: none;}
+
+.message {top: 500%;
+    margin-top: 20px;
+    width: 510px;
+    height: 160px;
+padding-top: 10px;}
+
+.send {position: absolute;
+    width: 518px;
+    height: 65px;
+    left: 83px;
+    top: 490px;
+color: #fff;
+margin-top: 18px;
+background-color: black;
+font-size: 30px;
+border: none;
+cursor: pointer;}
+
+.send:hover {
+    text-decoration: underline;
+}
